@@ -1,5 +1,5 @@
-    function getFormvalue(e) {
-      e.preventDefault();
+    function getFormvalue() {
+      
 
       let first_name = document.forms["form1"]["fname"].value.trim();
       let last_name = document.forms["form1"]["lname"].value.trim();
